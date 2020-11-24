@@ -1,11 +1,10 @@
 import React from 'react';
+import NavBar from './AppBar';
 import { makeStyles } from '@material-ui/core/styles';
 import { Paper, TextField, Button } from '@material-ui/core';
 
+
 const useStyles = makeStyles((theme) => ({
-  root: {
-    marginTop: 50,
-  },
   paper: {
     width: 400,
     margin: '0 auto',
@@ -24,6 +23,7 @@ function App() {
 
   return (
     <div className={classes.root}>
+      <NavBar />
       <Paper elevation={3} className={classes.paper}>
         <h1> Login </h1>
         <form className={classes.root} noValidate autoComplete="off">
