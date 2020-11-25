@@ -3,6 +3,7 @@ import NavBar from './AppBar';
 import { makeStyles } from '@material-ui/core/styles';
 import { Paper, TextField, Button } from '@material-ui/core';
 import BarChart from './BarChart';
+import PieChart from './PieChart';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -38,6 +39,7 @@ function App() {
       </Paper> */}
 
       <BarChart />
+      <PieChart />
     </div>
   );
 }
