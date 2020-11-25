@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from './AppBar';
 import { makeStyles } from '@material-ui/core/styles';
 import { Paper, TextField, Button } from '@material-ui/core';
+import BarChart from './BarChart';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -24,7 +25,7 @@ function App() {
 
   return (
     <div className={classes.root}>
-      <NavBar />
+      {/* <NavBar />
       <Paper elevation={3} className={classes.paper}>
         <h1> Login </h1>
         <form className={classes.root} noValidate autoComplete="off">
@@ -34,7 +35,9 @@ function App() {
             Primary
           </Button>
         </form>
-      </Paper>
+      </Paper> */}
+
+      <BarChart />
     </div>
   );
 }
