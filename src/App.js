@@ -8,6 +8,7 @@ const useStyles = makeStyles((theme) => ({
   paper: {
     width: 400,
     margin: '0 auto',
+    marginTop: 50,
     textAlign: 'center',
     padding: 15,
   },
